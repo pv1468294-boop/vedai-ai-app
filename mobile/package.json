@@ -1,0 +1,32 @@
+{
+  "name": "vedai-mobile",
+  "version": "1.0.0",
+  "description": "Vedai AI Assistant Mobile Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "eas build"
+  },
+  "dependencies": {
+    "expo": "^49.0.0",
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
+    "@react-navigation/native": "^6.1.0",
+    "@react-navigation/stack": "^6.3.0",
+    "@react-navigation/bottom-tabs": "^6.5.0",
+    "@react-native-google-signin/google-signin": "^12.0.0",
+    "react-native-facebook-login": "^4.1.1",
+    "axios": "^1.5.0",
+    "expo-av": "^13.10.0",
+    "expo-speech": "^11.5.0",
+    "react-native-voice": "^3.2.4",
+    "@react-native-async-storage/async-storage": "^1.19.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@react-native-community/eslint-config": "^3.0.0"
+  }
+}
